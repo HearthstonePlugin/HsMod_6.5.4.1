@@ -158,10 +158,10 @@
       <HintPath>BepInExCore\Mono.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Posix">
-      <HintPath>LibUnityMono\Mono.Posix.dll</HintPath>
+      <HintPath>UnstrippedCorlib\Mono.Posix.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Security">
-      <HintPath>LibUnityMono\Mono.Security.dll</HintPath>
+      <HintPath>UnstrippedCorlib\Mono.Security.dll</HintPath>
     </Reference>
     <Reference Include="MonoMod.RuntimeDetour">
       <HintPath>BepInExCore\MonoMod.RuntimeDetour.dll</HintPath>
@@ -170,10 +170,10 @@
       <HintPath>BepInExCore\MonoMod.Utils.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
-      <HintPath>LibUnityMono\mscorlib.dll</HintPath>
+      <HintPath>UnstrippedCorlib\mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
-      <HintPath>LibUnityMono\netstandard.dll</HintPath>
+      <HintPath>UnstrippedCorlib\netstandard.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>LibHearthstone\Newtonsoft.Json.dll</HintPath>
@@ -190,7 +190,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration">
-      <HintPath>LibUnityMono\System.Configuration.dll</HintPath>
+      <HintPath>UnstrippedCorlib\System.Configuration.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
@@ -214,10 +214,10 @@
       <HintPath>LibHearthstone\System.IO.Compression.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http">
-      <HintPath>LibUnityMono\System.Net.Http.dll</HintPath>
+      <HintPath>UnstrippedCorlib\System.Net.Http.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics">
-      <HintPath>LibUnityMono\System.Numerics.dll</HintPath>
+      <HintPath>UnstrippedCorlib\System.Numerics.dll</HintPath>
     </Reference>
     <Reference Include="System.Reflection">
       <HintPath>LibHearthstone\System.Reflection.dll</HintPath>
@@ -238,20 +238,20 @@
       <HintPath>LibHearthstone\System.Runtime.InteropServices.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization">
-      <HintPath>LibUnityMono\System.Runtime.Serialization.dll</HintPath>
+      <HintPath>UnstrippedCorlib\System.Runtime.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="System.Security">
-      <HintPath>LibUnityMono\System.Security.dll</HintPath>
+      <HintPath>UnstrippedCorlib\System.Security.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading">
       <HintPath>LibHearthstone\System.Threading.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq">
-      <HintPath>LibUnityMono\System.Xml.Linq.dll</HintPath>
+      <HintPath>UnstrippedCorlib\System.Xml.Linq.dll</HintPath>
     </Reference>
     <Reference Include="UniTask">
-      <HintPath>LibUnityMono\UniTask.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UniTask.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -284,185 +284,185 @@
       <HintPath>LibHearthstone\Unity.ZombieObjectDetector.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>LibUnityMono\UnityEngine.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AccessibilityModule">
-      <HintPath>LibUnityMono\UnityEngine.AccessibilityModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.AccessibilityModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
-      <HintPath>LibUnityMono\UnityEngine.AIModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.AIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AndroidJNIModule">
-      <HintPath>LibUnityMono\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.AndroidJNIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>LibUnityMono\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>LibUnityMono\UnityEngine.AssetBundleModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
-      <HintPath>LibUnityMono\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
-      <HintPath>LibUnityMono\UnityEngine.ClothModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.ClothModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>LibUnityMono\UnityEngine.ClusterInputModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.ClusterInputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>LibUnityMono\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>LibUnityMono\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CrashReportingModule">
-      <HintPath>LibUnityMono\UnityEngine.CrashReportingModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.CrashReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.DirectorModule">
-      <HintPath>LibUnityMono\UnityEngine.DirectorModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.DirectorModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.DSPGraphModule">
-      <HintPath>LibUnityMono\UnityEngine.DSPGraphModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.DSPGraphModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GameCenterModule">
-      <HintPath>LibUnityMono\UnityEngine.GameCenterModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.GameCenterModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GridModule">
-      <HintPath>LibUnityMono\UnityEngine.GridModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.GridModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HotReloadModule">
-      <HintPath>LibUnityMono\UnityEngine.HotReloadModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.HotReloadModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ImageConversionModule">
-      <HintPath>LibUnityMono\UnityEngine.ImageConversionModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>LibUnityMono\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>LibUnityMono\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputModule">
-      <HintPath>LibUnityMono\UnityEngine.InputModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.InputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.JSONSerializeModule">
-      <HintPath>LibUnityMono\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.JSONSerializeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.LocalizationModule">
-      <HintPath>LibUnityMono\UnityEngine.LocalizationModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.LocalizationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>LibUnityMono\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PerformanceReportingModule">
-      <HintPath>LibUnityMono\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.PerformanceReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Physics2DModule">
-      <HintPath>LibUnityMono\UnityEngine.Physics2DModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>LibUnityMono\UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ProfilerModule">
-      <HintPath>LibUnityMono\UnityEngine.ProfilerModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.ProfilerModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ScreenCaptureModule">
-      <HintPath>LibUnityMono\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.ScreenCaptureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule">
-      <HintPath>LibUnityMono\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteMaskModule">
-      <HintPath>LibUnityMono\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.SpriteMaskModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteShapeModule">
-      <HintPath>LibUnityMono\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.SpriteShapeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StreamingModule">
-      <HintPath>LibUnityMono\UnityEngine.StreamingModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.StreamingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubstanceModule">
-      <HintPath>LibUnityMono\UnityEngine.SubstanceModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.SubstanceModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubsystemsModule">
-      <HintPath>LibUnityMono\UnityEngine.SubsystemsModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.SubsystemsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainModule">
-      <HintPath>LibUnityMono\UnityEngine.TerrainModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.TerrainModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainPhysicsModule">
-      <HintPath>LibUnityMono\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.TerrainPhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextCoreTextEngineModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>LibUnityMono\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>LibUnityMono\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>LibUnityMono\UnityEngine.TilemapModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.TilemapModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TLSModule">
-      <HintPath>LibUnityMono\UnityEngine.TLSModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.TLSModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>LibHearthstone\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>LibUnityMono\UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>LibUnityMono\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UmbraModule">
-      <HintPath>LibUnityMono\UnityEngine.UmbraModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.UmbraModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UNETModule">
-      <HintPath>LibUnityMono\UnityEngine.UNETModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.UNETModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsModule">
-      <HintPath>LibUnityMono\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.UnityAnalyticsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityConnectModule">
-      <HintPath>LibUnityMono\UnityEngine.UnityConnectModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityTestProtocolModule">
-      <HintPath>LibUnityMono\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.UnityTestProtocolModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-      <HintPath>LibUnityMono\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-      <HintPath>LibUnityMono\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestModule">
-      <HintPath>LibUnityMono\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-      <HintPath>LibUnityMono\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>LibUnityMono\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VehiclesModule">
-      <HintPath>LibUnityMono\UnityEngine.VehiclesModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.VehiclesModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VFXModule">
-      <HintPath>LibUnityMono\UnityEngine.VFXModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.VFXModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
-      <HintPath>LibUnityMono\UnityEngine.VideoModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.VideoModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VRModule">
-      <HintPath>LibUnityMono\UnityEngine.VRModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.VRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.WindModule">
-      <HintPath>LibUnityMono\UnityEngine.WindModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.WindModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XRModule">
-      <HintPath>LibUnityMono\UnityEngine.XRModule.dll</HintPath>
+      <HintPath>UnstrippedCorlib\UnityEngine.XRModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

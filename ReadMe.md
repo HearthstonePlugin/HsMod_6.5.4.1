@@ -72,19 +72,23 @@ Note: The plugin is currently not fully translated.
 1. Compile `HsMod` or download `HsMod.dll` from `Releases`.
 2. Configure `BepInEx`.
 3. 2.1. Download [BepInEx_x86](https://github.com/BepInEx/BepInEx/releases) and extract it to the Hearthstone root directory `Hearthstone\`.
-4. 2.2. create a directory `Hearthstone\BepInEx\unstripped_corlib\`; Copy all dlls under the project directory HsMod/LibUnityMono to the unstripped_corlib directory. 
+4. 2.2. create a directory `Hearthstone\BepInEx\unstripped_corlib\`; Copy all dlls under the project directory HsMod/UnstrippedCorlib to the unstripped_corlib directory. 
 5. 2.3. Modify `Hearthstone\doorstop_config.ini` by replacing `dllSearchPathOverride=` with `dllSearchPathOverride=BepInEx\unstripped_corlib`
 6. Note: In [BepInEx 5.4.23.2](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.2), modify `Hearthstone\doorstop_config.ini` to replace `dll_search_path_override =` with `dll_search_path_override = BepInEx\unstripped_corlib` `corlib`
 7. Store `HsMod.dll` in `Hearthstone\BepInEx\plugins`.
 8. Install BepInEx [ConfigManager BepInExConfigManager.Mono](https://github.com/sinai-dev/BepInExConfigManager/releases), unzip it to `Hearthstone\BepInEx\` and you're done; enter the game and `F5` for related control.
 
-Note: unity and mono for Windows, extracted from [unity editor](https://unity.com/ja/releases/editor/whats-new/2021.3.40), unity is located at `.\Unity 2021.3.40f1\Editor\Data\PlaybackEngines\windowsstandalonesupport\Variations\win32_player_development_mono\Data\Managed`, mono Located in `.\Unity 2021.3.40f1\Editor\Data\MonoBleedingEdge\lib\mono\unityjit-win32`, some of the files are located in `unityjit-win32\Facades` )
+Note: unity and mono for Windows, extracted from [unity editor](https://unity.com/ja/releases/editor/whats-new/2021.3.40): 
+
+1. unity is located at `.\Unity 2021.3.40f1\Editor\Data\PlaybackEngines\windowsstandalonesupport\Variations\win32_player_development_mono\Data\Managed`, 
+2. mono Located in `.\Unity 2021.3.40f1\Editor\Data\MonoBleedingEdge\lib\mono\unityjit-win32`, some of the files are located in `unityjit-win32\Facades` )
+3. UniTask Extracted from net48 of OpenMod.UniTask.2021.2.4.1
 
 #### Mac
 
 1. Download the latest version of [BepInEx_unix](https://github.com/BepInEx/BepInEx/releases) and extract it to `Hearthstone/`
 
-2. ~~Download original [Mono](https://unity.bepinex.dev/corlibs/2021.3.40.zip) and [Unity](https://unity.bepinex.dev/libraries/2021.3.40.zip) libraries and unpack to Hearthstone/BepInEx/unstripped_corlib~~. Copy all `dll` which under the project folder `HsMod/LibUnityMonoUnix` (`cp HsMod/LibUnityMonoUnix/*  Hearthstone/BepInEx/unstripped_corlib/` ). ( PS. Mono and Unity version must same as Hearthstone ).
+2. ~~Download original [Mono](https://unity.bepinex.dev/corlibs/2021.3.40.zip) and [Unity](https://unity.bepinex.dev/libraries/2021.3.40.zip) libraries and unpack to Hearthstone/BepInEx/unstripped_corlib~~. Copy all `dll` which under the project folder `HsMod/UnstrippedCorlibUnix` (`cp HsMod/UnstrippedCorlibUnix/*  Hearthstone/BepInEx/unstripped_corlib/` ). ( PS. Mono and Unity version must same as Hearthstone ).
 
 3. Edit the `run_bepinex.sh` file replacing the line `export DOORSTOP_CORLIB_OVERRIDE_PATH=""`with `DOORSTOP_CORLIB_OVERRIDE_PATH="$BASEDIR/BepInEx/unstripped_corlib"`
 
@@ -136,15 +140,17 @@ The first run on Mac may prompt a Battle.net login error, please find HsMod.cfg 
 
 4. Create a directory `hearthstone/BepInEx/unstripped_corlib/`;
 
-5. Note: You can also copy all the `.dlls` under the project directory `HsMod/LibUnityMonoUnix` directly to that directory
+5. Note: You can also copy all the `.dlls` under the project directory `HsMod/UnstrippedCorlibUnix` directly to that directory
 
-6. 1. Download [Mono](https://unity.bepinex.dev/corlibs/2021.3.40.zip) and [Unity](https://unity.bepinex.dev/libraries/2021.3.40.zip), unzip and extract the dlls, copy all dlls to the directory under that directory.
+6. 1. Download [Mono](https://unity.bepinex.dev/corlibs/2021.3.40.zip) and [Unity](https://unity.bepinex.dev/libraries/2021.3.40.zip), unzip and extract the dlls, copy all dlls to the directory under that directory. 
 
-   2. Copy all the .dlls starting with `UniTask` under the project directory `HsMod/LibUnityMonoUnix` to that directory.
+   2. Copy all the .dlls starting with `UniTask` under the project directory `HsMod/UnstrippedCorlibUnix` to that directory. 
 
       ```
-      cp HsMod/LibUnityMonoUnix/UniTask* hearthstone/BepInEx/unstripped_corlib/
+      cp HsMod/UnstrippedCorlibUnix/UniTask* hearthstone/BepInEx/unstripped_corlib/
       ```
+      
+      ps. UniTask Extracted from net48 of OpenMod.UniTask.2021.2.4.1
 
 7. Modify `unix_bepinex.sh`
 
